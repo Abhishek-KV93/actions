@@ -1,0 +1,11 @@
+name:main
+on:push
+
+jobs:
+  main:
+    runs-on:windows-latest
+
+    steps:
+    - name: print hello world
+      run: print "hello world"
+    
